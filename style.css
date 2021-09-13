@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;600&family=Maven+Pro:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor : rgba(255, 74, 86, 1);
+}
+
+body{
+    font-family: 'Andada Pro', serif;
+}
+/* Navbar  */
+
+.navbar{
+    background-color: var(--primaryColor);
+    padding: 1rem;
+}
+
+.brand h1{
+    color: white;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.linkItem a{
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+}
+
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.que-container .que{
+    margin: 0 0 1rem 0;
+}
+
+.que-container p,label,input{
+    font-size: 1.3rem;
+}
+
+.formTitle, h3{
+    margin: 1rem;
+}
+
+.que-container{
+    margin: 1rem;
+}
+
+.submit-btn{
+    border-radius: 40px;
+    height: 2.5rem;
+    width: 7rem;
+    margin: 0.5rem auto;
+    background: var(--primaryColor);
+    border-color: var(--primaryColor);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+}
+
+.result{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
