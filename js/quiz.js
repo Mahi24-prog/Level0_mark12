@@ -15,4 +15,6 @@ submitBtn.addEventListener("click",()=>{
         index += 1;  
     }
     result.innerText = "The score is "+score;
+    result.scrollIntoView();
 })
+
